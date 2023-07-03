@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_inputs",
+  "info": {
+    "singularName": "user-input",
+    "pluralName": "user-inputs",
+    "displayName": "User_input"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "receipt_id": {
+      "type": "integer"
+    },
+    "category": {
+      "type": "string"
+    },
+    "note": {
+      "type": "richtext"
+    },
+    "expiration": {
+      "type": "date"
+    }
+  }
+}

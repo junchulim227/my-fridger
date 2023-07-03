@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipt_items",
+  "info": {
+    "singularName": "recipt-item",
+    "pluralName": "recipt-items",
+    "displayName": "Recipt_item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "receipt_id": {
+      "type": "integer"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "qty": {
+      "type": "integer"
+    },
+    "purchase_date": {
+      "type": "date"
+    },
+    "image_url": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "total_price": {
+      "type": "decimal"
+    }
+  }
+}
